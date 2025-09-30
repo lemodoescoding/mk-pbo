@@ -10,6 +10,9 @@ public class MataKuliah
     private ArrayList<Mahasiswa> pesertaKelas;
     private int sks;
 
+    public MataKuliah(String kode, String nama) {
+        this(kode, nama, 3, 30); // default 3 sks dan 30 kapasitas
+    }
     
     public MataKuliah(String kode, String nama, int sks, int kapasitas)
     {
