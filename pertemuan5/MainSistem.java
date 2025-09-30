@@ -81,28 +81,26 @@ public class MainSistem
     }
     
     private void tampilkanMahasiswa() {
+        int i = 1;
         System.out.println("\nDaftar Mahasiswa:");
-        for (int i = 0; i < daftarMhs.size(); i++) {
-            Mahasiswa m = daftarMhs.get(i);
-            System.out.println((i + 1) + ". " + m.getNRP() + " - " + m.getNama());
+        for (Mahasiswa m : daftarMhs) {
+            System.out.println(i++ + " - " + m.toString());
         }
     }
     
     private void tampilkanDosen() {
+        int i = 1;
         System.out.println("\nDaftar Dosen:");
-        for (int i = 0; i < daftarDosen.size(); i++) {
-            Dosen d = daftarDosen.get(i);
-            System.out.println((i + 1) + ". " + d.getNIP() + " - " + d.getNama());
+        for (Dosen d : daftarDosen) {
+            System.out.println(i++ + " - " + d.toString());
         }
     }
     
     private void tampilkanMataKuliah() {
+        int i = 1;
         System.out.println("\nDaftar Mata Kuliah:");
-        for (int i = 0; i < daftarMK.size(); i++) {
-            MataKuliah mk = daftarMK.get(i);
-            System.out.println((i + 1) + ". " + mk.getKodeMK() + " - " + mk.getNamaMK()
-                    + " (" + mk.getAllPeserta().size() + "/" + mk.getKapasitasMK() + " peserta)"
-                    + " | Dosen: " + (mk.getDosenMK() != null ? mk.getDosenMK().getNama() : "Belum ada"));
+        for (MataKuliah mk : daftarMK) {
+            System.out.println(i++ + " - " + mk.toString());
         }
     }
 

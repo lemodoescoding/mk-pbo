@@ -45,5 +45,9 @@ public class MataKuliah
     
     public ArrayList<Mahasiswa> getAllPeserta() { return pesertaKelas; }
     
-    
+    @Override
+    public String toString() {
+        return "MataKuliah[" + nama + " - " + kode + " - " + sks + " sks - " + " (" + pesertaKelas.size() + "/" + kapasitas + " peserta)"
+                    + " | Dosen: " + (pengampu != null ? pengampu.getNama() : "Belum ada") + " ]";
+    }
 }

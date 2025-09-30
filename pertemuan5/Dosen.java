@@ -30,4 +30,9 @@ public class Dosen
     public ArrayList<MataKuliah> getAllAjar(){
         return mengajar;
     }
+    
+    @Override
+    public String toString() {
+        return "Dosen[ " + nama + " - " + nip + " ]";
+    }
 }

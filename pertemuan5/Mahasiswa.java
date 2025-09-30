@@ -43,4 +43,9 @@ public class Mahasiswa
     public ArrayList<MataKuliah> getAllMK() {
         return enrolledMK;
     }
+    
+    @Override
+    public String toString() {
+        return "Mahasiswa[ " + nama + " - " + nrp + " ]";
+    }
 }

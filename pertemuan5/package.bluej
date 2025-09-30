@@ -1,8 +1,8 @@
 #BlueJ package file
-dependency1.from=Mahasiswa
+dependency1.from=Dosen
 dependency1.to=MataKuliah
 dependency1.type=UsesDependency
-dependency2.from=Dosen
+dependency2.from=Mahasiswa
 dependency2.to=MataKuliah
 dependency2.type=UsesDependency
 dependency3.from=MataKuliah
