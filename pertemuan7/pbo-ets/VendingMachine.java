@@ -26,6 +26,7 @@ public class VendingMachine
         int userInput = 0;
         do {
             printWelcome();
+            stackhandl.notifyStockEmpty();
             diplayMenu.displayAllMenu();
             userInput = Integer.parseInt(input.readInput());
 
@@ -39,7 +40,7 @@ public class VendingMachine
 
             int checkStock = stackhandl.isStockEmpty(menuChoice);
 
-            if(checkStock == 1){
+            if(checkStock != 0){
                 System.out.println("Mohon maaf menu ini sedang kosong");
                 continue;
             }
@@ -64,6 +65,7 @@ public class VendingMachine
 
         int success = transac.processTransaction(pilihanMenu, userPayment);
         if(success == 1){
+            stackhandl.decreaseStock(pilihanMenu);
             logger.addLog(pilihanMenu, price);
         }
     }

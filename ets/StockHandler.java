@@ -10,7 +10,7 @@ public class StockHandler
         snackA = 10;
         snackB = 11;
         snackC = 5;
-        drinkA = 7;
+        drinkA = 1;
     }
 
     public int getStock(String menu){
@@ -47,13 +47,13 @@ public class StockHandler
     public int isStockEmpty(String menu){
         switch (menu) {
             case "Snack A":
-                return snackA == 0 ? 1 : 0;
+                return snackA <= 0 ? 1 : 0;
             case "Snack B":
-                return snackB == 0 ? 1 : 0;
+                return snackB <= 0 ? 1 : 0;
             case "Snack C":
-                return snackC == 0 ? 1 : 0;
+                return snackC <= 0 ? 1 : 0;
             case "Drink A":
-                return drinkA == 0 ? 1 : 0;
+                return drinkA <= 0 ? 1 : 0;
             default:
                 return 1;
         }
@@ -61,19 +61,19 @@ public class StockHandler
 
     public void notifyStockEmpty(){
         if(snackA == 0){
-            System.err.println(" --- Snack A is out of stock --- ");
+            System.out.println(" --- Snack A is out of stock --- ");
         }
 
         if(snackB == 0){
-            System.err.println(" --- Snack B is out of stock --- ");
+            System.out.println(" --- Snack B is out of stock --- ");
         }
 
         if(snackC == 0){
-            System.err.println(" --- Snack C is out of stock --- ");
+            System.out.println(" --- Snack C is out of stock --- ");
         }
 
         if(drinkA == 0){
-            System.err.println(" --- Drink A is out of stock --- ");
+            System.out.println(" --- Drink A is out of stock --- ");
         }
     }
 }
