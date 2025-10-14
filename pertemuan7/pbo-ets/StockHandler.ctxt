@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StockHandler
+comment1.params=
+comment1.target=StockHandler()
+comment2.params=menu
+comment2.target=int\ getStock(java.lang.String)
+comment3.params=menu
+comment3.target=void\ decreaseStock(java.lang.String)
+comment4.params=menu
+comment4.target=int\ isStockEmpty(java.lang.String)
+comment5.params=
+comment5.target=void\ notifyStockEmpty()
+numComments=6

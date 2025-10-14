@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Logger
+comment1.params=
+comment1.target=Logger()
+comment2.params=namaPilihan\ harga
+comment2.target=void\ addLog(java.lang.String,\ int)
+comment3.params=
+comment3.target=void\ printAllLog()
+numComments=4
