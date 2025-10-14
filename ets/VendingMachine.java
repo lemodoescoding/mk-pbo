@@ -21,10 +21,11 @@ public class VendingMachine
     }
 
     public void run(){
-        printWelcome();
+     
 
         int userInput = 0;
         do {
+            printWelcome();
             diplayMenu.displayAllMenu();
             userInput = Integer.parseInt(input.readInput());
 

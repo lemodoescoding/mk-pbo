@@ -16,7 +16,9 @@ public class MenuDisplay
         System.out.println("1. Snack A -- 7000");
         System.out.println("2. Snack B -- 9000");
         System.out.println("3. Snack C -- 11000");
-        System.out.println("3. Drink A -- 4000");
+        System.out.println("4. Drink A -- 4000");
+        System.out.println("5 - Keluar");
+        System.out.println("Silahkan pilih (1-4): ");
     }
 
     public String getMenuFromIndex(int menuIndex){
