@@ -50,9 +50,9 @@ public class VendingMachine
     }
     
     private void printWelcome(){
-        System.out.println("Selamat Datang di Coffe Vending Machine!");
+        System.out.println("Selamat Datang di Vending Machine!");
         System.out.println();
-        System.out.println("Silahkan pilih jenis kopi dan ukuran yang anda inginkan");
+        System.out.println("Silahkan pilih snack dan drink yang anda inginkan");
     }
 
     private void printTotalPayment(String pilihanMenu){
