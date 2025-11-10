@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Truk
+comment0.text=\n\ Write\ a\ description\ of\ class\ Truk\ here.\n\n\ @author\ Ahmad\ Satrio\ Arrohman\ -\ 20251110\n\ @version\ 0.0.1\n
+comment1.params=merk\ model\ thnProduksi\ jumlahBan\ tipeTruk
+comment1.target=Truk(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ showDetail()
+numComments=3

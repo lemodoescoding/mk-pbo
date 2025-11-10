@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=InputHandler
+comment0.text=\n\ Write\ a\ description\ of\ class\ InputHandler\ here.\n\n\ @author\ Ahmad\ Satrio\ Arrohman\ -\ 20251110\n\ @version\ 0.0.1\n
+comment1.params=
+comment1.target=InputHandler()
+comment2.params=
+comment2.target=java.lang.String\ readInput()
+numComments=3
