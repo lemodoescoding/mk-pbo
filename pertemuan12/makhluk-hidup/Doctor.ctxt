@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Doctor
+comment0.text=\n\ Write\ a\ description\ of\ class\ Doctor\ here.\n\n\ @author\ Ahmad\ Satrio\ Arrohman\n\ @version\ 20251118\ -\ 0.0.1\n
+comment1.params=name
+comment1.target=Doctor(java.lang.String)
+comment2.params=
+comment2.target=void\ grow()
+comment3.params=
+comment3.target=void\ speak()
+numComments=4

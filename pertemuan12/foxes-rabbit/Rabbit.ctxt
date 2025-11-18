@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Rabbit
+comment0.text=\n\ Write\ a\ description\ of\ class\ Rabbit\ here.\n\n\ @author\ Ahmad\ Satrio\ Arrohman\n\ @version\ 20251118\ -\ 0.0.1\n
+comment1.params=newAnimals
+comment1.target=void\ act(java.util.List)
+numComments=2

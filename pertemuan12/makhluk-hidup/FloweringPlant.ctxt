@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FloweringPlant
+comment0.text=\n\ Write\ a\ description\ of\ class\ FloweringPlant\ here.\n\n\ @author\ Ahmad\ Satrio\ Arrohman\n\ @version\ 20251118\ -\ 0.0.1\n
+comment1.params=name
+comment1.target=FloweringPlant(java.lang.String)
+comment2.params=
+comment2.target=void\ grow()
+comment3.params=
+comment3.target=void\ photosynthesize()
+numComments=4

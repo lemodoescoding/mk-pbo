@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\n\ Write\ a\ description\ of\ class\ Animal\ here.\n\n\ @author\ Ahmad\ Satrio\ Arrohman\n\ @version\ 20251118\ -\ 0.0.1\n
+comment1.params=name
+comment1.target=Animal(java.lang.String)
+comment2.params=
+comment2.target=void\ move()
+numComments=3
