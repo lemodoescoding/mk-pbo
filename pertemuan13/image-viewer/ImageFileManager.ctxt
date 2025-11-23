@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=ImageFileManager
+comment0.text=\n\ Write\ a\ description\ of\ class\ ImageFileManager\ here.\n\n\ @author\ Ahmad\ Satrio\ Arrohman\n\ @version\ 20251118\ -\ 0.0.1\n
+comment1.params=imageFile
+comment1.target=OFImage\ loadImage(java.io.File)
+comment2.params=image\ file
+comment2.target=void\ saveImage(OFImage,\ java.io.File)
+numComments=3
